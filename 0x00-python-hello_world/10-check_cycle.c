@@ -1,30 +1,36 @@
-#include "lists.h"
+/*
+ * File: 10-check_cycle.c
+ * Auth: Enigma
+ */
+
 #include <stdlib.h>
+#include "lists.h"
 
 /**
- * check_cycle - Checks if a singly linked list has a cycle
- * @list: Pointer to the head of the singly linked list
+ * check_cycle - Checks if a singly-linked list contains a cycle.
+ * @list: A singly-linked list.
  *
- * Return: 1 if a cycle is found, 0 otherwise
+ * Return: If there is no cycle - 0.
+ *         If there is a cycle - 1.
  */
 int check_cycle(listint_t *list)
 {
-    listint_t *slow, *fast;
+	listint_t *turtle, *hare;
 
-    if (!list)
-        return (0);
+	if (list == NULL || list->next == NULL)
+		return (0);
 
-    slow = list;
-    fast = list;
+	turtle = list->next;
+	hare = list->next->next;
 
-    while (fast != NULL && fast->next != NULL)
-    {
-        slow = slow->next;         // Move slow pointer by 1
-        fast = fast->next->next;   // Move fast pointer by 2
+	while (turtle && hare && hare->next)
+	{
+		if (turtle == hare)
+			return (1);
 
-        if (slow == fast)
-            return (1);            // Cycle detected
-    }
+		turtle = turtle->next;
+		hare = hare->next->next;
+	}
 
-    return (0);                    // No cycle
+	return (0);
 }
