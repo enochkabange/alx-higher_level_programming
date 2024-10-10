@@ -1,0 +1,1 @@
+This is a directory hosting my solutions to the ALX SE project on 0x1A. C - Hash tables. 
