@@ -1,0 +1,1 @@
+# Add solution to tasks Python - More Classes and Objects

@@ -1,1 +1,1 @@
-This directory hosts all my ALX SE proejct "0x05. Python - Exceptions" tasks and solutions. 
+This directory hosts all my ALX SE project 0x05. Python - Exceptions tasks and their solutions
