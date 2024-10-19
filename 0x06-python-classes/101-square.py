@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-"""my square module."""
+
+"""my define square module."""
 
 
 class Square:
-    """define a Square."""
+    """define Square."""
 
     def __str__(self):
         """teach python to print the square my way"""

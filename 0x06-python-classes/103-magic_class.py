@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""writing a docstring"""
+
+"""writing the docstring"""
+
 import math
 
 
