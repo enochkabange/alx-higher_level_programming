@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 Rectangle = __import__('4-rectangle').Rectangle
 
 my_rectangle = Rectangle(2, 4)
@@ -11,7 +12,7 @@ print("--")
 print(hex(id(my_rectangle)))
 print("--")
 
-# create new instance based on representation
+# create a new instance based on the representation
 new_rectangle = eval(repr(my_rectangle))
 print(str(new_rectangle))
 print("--")

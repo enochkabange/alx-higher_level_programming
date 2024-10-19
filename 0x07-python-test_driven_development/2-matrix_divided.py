@@ -1,13 +1,14 @@
 #!/usr/bin/python3
+
 """
 
-This module defines a matrix division function
+This module defines matrix division function
 
 """
 
 
 def matrix_divided(matrix, div):
-    """This function divides all elements of a matrix by a given number
+    """This function divides all the elements of a matrix by a given number
 
     Args:
         matrix: A list of lists (matrix)- members can be of type ints or floats

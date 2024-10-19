@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 """
 
-This module has one function that adds up 2 integers
+This module has 1 function that adds up two integers
 
 """
 
 
 def add_integer(a, b=98):
-    """Return the sum of two integers or floats as integers
+    """Return the sum of the two integers or floats as integers
 
     Args:
         a: first argument
