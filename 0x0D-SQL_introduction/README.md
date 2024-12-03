@@ -1,0 +1,1 @@
+This is a directory for all tasks under teh ALX "0x0D. SQL - Introduction" project. Enjoy!
